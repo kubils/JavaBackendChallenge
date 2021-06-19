@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Bissextile",
+            "request": "launch",
+            "mainClass": "KosulluIfade.Bissextile",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChinaZodiac",
+            "request": "launch",
+            "mainClass": "KosulluIfade.ChinaZodiac",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hw1PlainTicketFee",
+            "request": "launch",
+            "mainClass": "KosulluIfade.Hw1PlainTicketFee",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZodiacSign",
+            "request": "launch",
+            "mainClass": "KosulluIfade.ZodiacSign",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch OrderAsc",
+            "request": "launch",
+            "mainClass": "KosulluIfade.OrderAsc",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch ActivitySuggestionWeatherCondition",
+            "request": "launch",
+            "mainClass": "KosulluIfade.ActivitySuggestionWeatherCondition",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch PassAverage",
+            "request": "launch",
+            "mainClass": "KosulluIfade.PassAverage",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch Login",
+            "request": "launch",
+            "mainClass": "KosulluIfade.Login",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch CalculatorSwitch",
+            "request": "launch",
+            "mainClass": "KosulluIfade.CalculatorSwitch",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch ManavKasa",
+            "request": "launch",
+            "mainClass": "ManavKasa",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch BodyMassIndex",
+            "request": "launch",
+            "mainClass": "BodyMassIndex",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch CircleArea",
+            "request": "launch",
+            "mainClass": "CircleArea",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch Taximeter",
+            "request": "launch",
+            "mainClass": "Taximeter",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch TriangleArea",
+            "request": "launch",
+            "mainClass": "TriangleArea",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kdv",
+            "request": "launch",
+            "mainClass": "Kdv",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch NotOrtalamasi",
+            "request": "launch",
+            "mainClass": "NotOrtalamasi",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch NotOrtalaması",
+            "request": "launch",
+            "mainClass": "NotOrtalaması",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Patika_79408331"
+        }
+    ]
+}
