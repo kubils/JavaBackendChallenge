@@ -1,4 +1,4 @@
-package Loops;
+package Methods;
 import java.util.Scanner;
 
 public class RecursiveMethodPattern {

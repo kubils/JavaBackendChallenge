@@ -1,4 +1,4 @@
-package Loops;
+package Methods;
 /**
  * 
  * 11333527 KAÇ TANE TEKRARLAYAN VAR RECURSIVE BUL
