@@ -6,6 +6,174 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Substring",
+            "request": "launch",
+            "mainClass": "main.Substring",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecursiveMethodPattern",
+            "request": "launch",
+            "mainClass": "Loops.RecursiveMethodPattern",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch s",
+            "request": "launch",
+            "mainClass": "s",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecursivePrimeNum",
+            "request": "launch",
+            "mainClass": "Methods.RecursivePrimeNum",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowRecursive",
+            "request": "launch",
+            "mainClass": "Methods.PowRecursive",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch AdvanceCalculator",
+            "request": "launch",
+            "mainClass": "Methods.AdvanceCalculator",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecursiveFibonacci",
+            "request": "launch",
+            "mainClass": "Methods.RecursiveFibonacci",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrome",
+            "request": "launch",
+            "mainClass": "Methods.Palindrome",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciSeries",
+            "request": "launch",
+            "mainClass": "Loops.FibonacciSeries",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeNum",
+            "request": "launch",
+            "mainClass": "Loops.PrimeNum",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch TriangleWStars",
+            "request": "launch",
+            "mainClass": "Loops.TriangleWStars",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch PerfectNum",
+            "request": "launch",
+            "mainClass": "Loops.PerfectNum",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinMax",
+            "request": "launch",
+            "mainClass": "Loops.MinMax",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch WhileEbobEkok",
+            "request": "launch",
+            "mainClass": "Loops.WhileEbobEkok",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch ATMProject",
+            "request": "launch",
+            "mainClass": "Loops.ATMProject",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiamondWStars",
+            "request": "launch",
+            "mainClass": "Loops.DiamondWStars",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch HarmonikSeri",
+            "request": "launch",
+            "mainClass": "Loops.HarmonikSeri",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch DigitSum",
+            "request": "launch",
+            "mainClass": "Loops.DigitSum",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "Loops.ArmstrongNumber",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerNum",
+            "request": "launch",
+            "mainClass": "Loops.PowerNum",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch Combination",
+            "request": "launch",
+            "mainClass": "Loops.Combination",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoN",
+            "request": "launch",
+            "mainClass": "Loops.TwoN",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumMFour",
+            "request": "launch",
+            "mainClass": "Loops.SumMFour",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindEven",
+            "request": "launch",
+            "mainClass": "Loops.FindEven",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
             "name": "Launch Bissextile",
             "request": "launch",
             "mainClass": "KosulluIfade.Bissextile",
