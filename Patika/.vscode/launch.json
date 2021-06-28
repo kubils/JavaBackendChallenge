@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Minesweeper",
+            "request": "launch",
+            "mainClass": "Minesweeper",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Minefield.Main",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch Minesweeper",
+            "request": "launch",
+            "mainClass": "Minefield.Minesweeper",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
+            "name": "Launch Minesweeper",
+            "request": "launch",
+            "mainClass": "main.Minesweeper",
+            "projectName": "Patika_79408331"
+        },
+        {
+            "type": "java",
             "name": "Launch Substring",
             "request": "launch",
             "mainClass": "main.Substring",
