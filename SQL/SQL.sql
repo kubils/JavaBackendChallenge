@@ -144,18 +144,77 @@ DELETE FROM employee WHERE id = 1;
 
 -----------------------------------------JOIN----------------------------------------------
 
+--HW9
+--1--
+SELECT city,country FROM city 
+JOIN country ON city.country_id = country.country_id;
+--2--
+SELECT p.payment_id, c.first_name, c.last_name FROM customer c 
+JOIN payment p ON c.customer_id = p.customer_id; 
+--3--
+SELECT r.rental_id, c.first_name, c.last_name FROM customer c 
+JOIN rental r ON c.customer_id = r.customer_id;
 
+--HW10
+--1--
+SELECT ct.city, co.country FROM city ct 
+LEFT JOIN country co ON co.country_id = ct.country_id;
+--2--
+SELECT p.payment_id, c.first_name, c.last_name FROM customer c 
+RIGHT JOIN payment p ON c.customer_id = p.customer_id;
+--3--
+SELECT r.rental_id, c.first_name, c.last_name FROM customer c 
+FULL JOIN rental r ON c.customer_id = r.customer_id;
 
+--HW11
+--1--
+(SELECT first_name FROM actor) UNION (SELECT first_name FROM customer);
+--2--
+(SELECT first_name FROM actor) INTERSECT (SELECT first_name FROM customer);
+--3--
+(SELECT first_name FROM actor) EXCEPT (SELECT first_name FROM customer);
+--4--
+(SELECT first_name FROM actor) UNION ALL (SELECT first_name FROM customer);
+--5-- INTERSECT (ALL NOT USEFUL)
+(SELECT first_name FROM actor) INTERSECT ALL (SELECT first_name FROM customer);
+--6--
+(SELECT first_name FROM actor) EXCEPT ALL (SELECT first_name FROM customer);
 
+--HW12
+--1--
+SELECT  COUNT(*) FROM film WHERE length > (SELECT AVG(length) FROM film);
+--2--
+SELECT COUNT(rental_rate) FROM film WHERE rental_rate = (SELECT MAX(rental_rate) FROM film);
+--3--
+SELECT title FROM film WHERE film_id = ANY (SELECT film_id FROM film ORDER BY rental_rate ASC, replacement_cost  ASC LIMIT 10);
+--4--
+	--not ordered with payment,  max 10 customer
+SELECT first_name || ' ' || last_name  AS Name ,customer_id FROM customer 
+WHERE customer_id = ANY
+(SELECT customer_id FROM payment GROUP BY customer_id ORDER BY Count(customer_id) DESC LIMIT 10);
+	-- ordered with payment, max 10 customer
+SELECT Count(payment.customer_id),customer.customer_id FROM customer 
+JOIN payment ON customer.customer_id = payment.customer_id
+GROUP BY payment.customer_id,customer.customer_id
+ORDER BY Count(payment.customer_id) DESC LIMIT 10;
 
+--GENEL TEKRAR
+--film tablosundan 'K' karakteri ile başlayan en uzun ve replacenet_cost u en düşük 4 filmi sıralayınız.
+SELECT Count(*) FROM film WHERE title ILIKE '%e%e%e%e%';
 
+--film tablosunda içerisinden en fazla sayıda film bulunduran rating kategorisi hangisidir?
+SELECT category.name,Count(*) FROM category JOIN film_category ON film_category.category_id = category.category_id
+JOIN film ON film.film_id = film_category.film_id
+GROUP BY category.name ORDER BY category.name;
 
+--cutomer tablosunda en çok alışveriş yapan müşterinin adı nedir?
+SELECT rating FROM film
+GROUP BY rating ORDER BY COUNT(*) DESC LIMIT 1;
 
+--category tablosundan kategori isimlerini ve kategori başına düşen film sayılarını sıralayınız.
+SELECT title, replacement_cost, length FROM film WHERE title LIKE 'K%' 
+ORDER BY length DESC, replacement_cost ASC LIMIT 3;
 
-
-
-
-
-
-
-
+--film tablosunda isminde en az 4 adet 'e' veya 'E' karakteri bulunan kç tane film vardır?
+SELECT c.first_name, c.last_name, SUM(payment.amount)  FROM customer c JOIN payment ON payment.customer_id = c.customer_id
+GROUP BY c.customer_id ORDER BY SUM(payment.amount) DESC LIMIT 1;
