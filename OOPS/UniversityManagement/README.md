@@ -1,3 +1,3 @@
 ## JavaBackendChallenge
 
-![onlineMovieSystem](onlineMovieSystem.png)
+![UML_UniversityManagementSystem](UML_UniversityManagementSystem.png)
