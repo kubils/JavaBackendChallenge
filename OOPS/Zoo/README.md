@@ -1,3 +1,3 @@
 ## JavaBackendChallenge
 
-![elevatorSimulation](elevatorSimulation.png)
+![zooManagement](zoo.png)
