@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6ede52f-c199-4482-ae2f-06b50e4734bc" name="Default Changelist" comment="" />
+    <list default="true" id="e6ede52f-c199-4482-ae2f-06b50e4734bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventureGame/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventureGame/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventureGame/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventureGame/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventureGame/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventureGame/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventureGame/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventureGame/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java102.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,8 +84,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookOrder" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -83,17 +97,6 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,6 +111,9 @@
       <option name="presentableId" value="Default" />
       <updated>1625169117164</updated>
       <workItem from="1625169118551" duration="689000" />
+      <workItem from="1625399318135" duration="79000" />
+      <workItem from="1625399402360" duration="41000" />
+      <workItem from="1625413821592" duration="74000" />
     </task>
     <servers />
   </component>
