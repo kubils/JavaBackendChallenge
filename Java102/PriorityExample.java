@@ -22,7 +22,5 @@ public class PriorityExample {
         // öğeleri Comparator'un sırayla yazdır
         for (int i = 0; i < 20; i++) {
             System.out.print(" " + pq.poll());
-
-
     }
 }
